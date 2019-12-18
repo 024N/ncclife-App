@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle = "bold"
+        android:textColor="#E80900"
+        android:paddingTop="5dp"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#c0c0c0"/>
+
+    <TextView
+        android:id="@+id/soupTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle = "bold"
+        android:textColor="#0A1827"
+        android:paddingTop="2dp"
+        android:textSize="15dp"
+        android:text="ÇORBA" />
+
+    <TextView
+        android:id="@+id/soup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:gravity="center"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#c0c0c0"/>
+
+    <TextView
+        android:id="@+id/main_dinnerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle = "bold"
+        android:textColor="#0A1827"
+        android:paddingTop="2dp"
+        android:textSize="15dp"
+        android:text="ANA YEMEK" />
+
+    <TextView
+        android:id="@+id/main_dinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:gravity="center"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#c0c0c0"/>
+
+    <TextView
+        android:id="@+id/third_kindTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle = "bold"
+        android:textColor="#0A1827"
+        android:paddingTop="2dp"
+        android:textSize="15dp"
+        android:text="3. ÇEŞİT" />
+
+    <TextView
+        android:id="@+id/third_kind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:gravity="center"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#c0c0c0"/>
+
+    <TextView
+        android:id="@+id/fourth_kindTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle = "bold"
+        android:textColor="#0A1827"
+        android:paddingTop="2dp"
+        android:textSize="15dp"
+        android:text="4. ÇEŞİT" />
+
+    <TextView
+        android:id="@+id/fourth_kind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:gravity="center"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#c0c0c0"/>
+
+    <TextView
+        android:id="@+id/fifth_kindTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle = "bold"
+        android:textColor="#0A1827"
+        android:paddingTop="2dp"
+        android:textSize="15dp"
+        android:text="5. ÇEŞİT" />
+
+    <TextView
+        android:id="@+id/fifth_kind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:paddingBottom="10dp"/>
+
+</LinearLayout>
